@@ -1,7 +1,11 @@
+# pip install cmake
+# pip install dlib
+
+
 import cv2
 import dlib
 
-cap = cv2.VideoCapture('video.mp4')
+cap = cv2.VideoCapture('e:/video/Truck.mp4')
 
 trackers = []
 
