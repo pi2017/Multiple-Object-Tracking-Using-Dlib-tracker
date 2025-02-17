@@ -43,6 +43,8 @@ while True:
             tkr.start_track(rgb_frame,rect)
             trackers.append(tkr)
 
+    if k == ord('q'):
+        break
 
 cap.release()
 cv2.destroyAllWindows()
